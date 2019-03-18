@@ -1,0 +1,35 @@
+git init
+$ git remote add origin "git@github.com://github.com/Pavan228/Jigsaw-R.git"
+$ git pull origin master
+Add Your files
+$ git add -A
+$git commit -a -m "Your Message"
+SSHKEYGEN
+$ssh-keygen
+$cat <PUBILIC KEY PATH>
+Copy entire key adn paste there in your repo under setting--> Add keyss 
+$ssh -T git@github.com (ONLY FOR VERFICATION)
+$git push origin master
+
+To retrieve commits only:
+=======================
+git pull origin <COMMIT ID (HAS TO FETCH FROM GITHUB>
+
+git checkout FETCH_HEAD # it will pull all changes to your local repo.
+
+Working with Branches:
+=====================
+to create branch:
+----------------
+git branch <BRANCH NAME>
+
+To switch to created branch:
+---------------------------
+git checkout <BRANCH NAME YOU WANT TO SWITCH>
+
+
+To add files from one branch to anothe Branch:
+---------------------------------------------
+git add -A
+git commit -am "<YOUR MESSAGE>"
+git push origin <YOUR BRANCH>

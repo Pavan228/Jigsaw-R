@@ -9,7 +9,7 @@ options(scipen=999)
 
 
 
-#########-------------------------------------USER DEFINED FUNCTIONS FOR PROFILING-----------------------------------------------------------########
+#########-------------------------------------USER DEFINED FUNCTIONS FOR Both Cont and Cat PROFILING-----------------------------------------------------------########
 
 cont_profliling<-function(variable_name,groups){
   
